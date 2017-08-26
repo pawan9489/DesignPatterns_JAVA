@@ -24,7 +24,7 @@ public class Main {
         runMethods(cloudDuck);
     }
 
-    public static void runMethods(Duck d) {
+    private static void runMethods(Duck d) {
         System.out.println();
         System.out.println(d);
         d.Quack();
